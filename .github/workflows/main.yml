@@ -28,7 +28,7 @@ jobs:
         aws-region: us-east-1
 
     - name: Login to Amazon ECR
-      id: voclabs/user1642628=pavle.burjanadze.1@btu.edu.ge
+      id: pavle.burjanadze.1@btu.edu.ge
       uses: aws-actions/amazon-ecr-login@v1
 
     - name: Build, tag, and push image to Amazon ECR
